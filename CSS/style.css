@@ -26,5 +26,12 @@ text-fill-color: transparent;
 }
 
 .barra{
-    border-right: 1px solid white;
+    border-right: 5px solid white;
+}
+
+@media(max-width: 576px){
+    .barra{
+        border-right: 0px solid black;
+
+    }
 }
