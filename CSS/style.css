@@ -4,7 +4,7 @@ body{
     font-family: 'Poppins', 'sans-serif';
 }
 
-h1, h2, h3{
+h1, h2, h3, h4{
     font-weight: 600;
 }
 
@@ -44,4 +44,14 @@ text-fill-color: transparent;
 .btn-primary{
     background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
     color: #00040F;
+}
+
+.bio{
+    display: flex;
+    align-items: center;
+}
+
+.depoimento:hover{
+    border-radius: 10px;
+    background: linear-gradient(144.39deg, #FFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
 }
